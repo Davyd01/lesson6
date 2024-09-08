@@ -1,0 +1,200 @@
+@import url('reset.css');
+
+
+.wrapper {
+
+}
+
+
+.header {
+  background: #221c1c;
+  padding: 20px 0;
+  color: white;
+  margin-bottom: 40px;
+
+}
+
+.header .container {
+  font-size: 0;
+}
+
+.logo, .menu, .search {
+  font-size: 16px;
+  display: inline-block;
+}
+
+.logo, .search {
+  width: 100px;
+}
+
+.logo a{
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+
+}
+
+.menu {
+  font-size: 0;
+  width: 1000px;
+  text-align: center;
+}
+
+.menu li {
+  display: inline-block;
+  font-size: 16px;
+
+  
+}
+.menu li + li {
+  margin-left: 30px;
+}
+
+.menu li a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.menu li a.active {
+  color: red;
+}
+
+
+.search button {
+  width: 100%;
+  padding: 7px 10px;
+  border: 1px solid red;
+  background: transparent;
+  color: white;
+  border-radius: 5px;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++ */
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.box {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 50px;
+  font-size: 0;
+}
+
+.child {
+  width: 300px;
+  background: red;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.child + div {
+  background: yellow;
+}
+
+.child + div + div {
+  background: pink;
+}
+
+.child + div + div + div {
+  background: blue;
+}
+
+.child + div + div + div + div {
+  background: rgb(145, 145, 186);
+}
+
+.child + div + div + div + div + div {
+  background: rgb(19, 185, 64);
+}
+
+
+
+/* --------------------------------------------------------- */
+
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+
+}
+
+.container h1 + p {
+  text-align: center;
+  text-transform: uppercase;
+  
+}
+
+.cards {
+  font-size: 0;
+}
+
+
+.card {
+  width: 400px;
+  display: inline-block;
+  font-size: 16px;
+  /* background: yellow; */
+  padding: 20px;
+}
+
+.card-content {
+  padding: 10px;
+  border: 1px solid red;
+  border-radius: 10px;
+}
+
+.image {
+  margin-bottom: 20px;
+}
+
+.image img{
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+.description {
+  overflow: hidden;
+  height: 192px;
+}
+
+.description p + p {
+  margin-top: 10px;
+}
+
+.description + a {
+  color: rgb(181, 46, 46);
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+
+
+
+
+
+
+
