@@ -1,35 +1,32 @@
-@import url('reset.css');
-
-
-
-
+@import url("reset.css");
 
 .header {
   background: #221c1c;
   padding: 20px 0;
   color: white;
   margin-bottom: 40px;
-
 }
 
 .header .container {
   font-size: 0;
 }
 
-.logo, .menu, .search {
+.logo,
+.menu,
+.search {
   font-size: 16px;
   display: inline-block;
 }
 
-.logo, .search {
+.logo,
+.search {
   width: 100px;
 }
 
-.logo a{
+.logo a {
   text-transform: uppercase;
   color: white;
   text-decoration: none;
-
 }
 
 .menu {
@@ -41,14 +38,12 @@
 .menu li {
   display: inline-block;
   font-size: 16px;
-
-  
 }
 .menu li + li {
   margin-left: 30px;
 }
 
-.menu li a{
+.menu li a {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
@@ -57,7 +52,6 @@
 .menu li a.active {
   color: red;
 }
-
 
 .search button {
   width: 100%;
@@ -109,29 +103,23 @@
   background: rgb(19, 185, 64);
 }
 
-
-
 /* --------------------------------------------------------- */
-
 
 h1 {
   font-size: 40px;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 10px;
-
 }
 
 .container h1 + p {
   text-align: center;
   text-transform: uppercase;
-
 }
 
 .cards {
   font-size: 0;
 }
-
 
 .card {
   width: 400px;
@@ -151,10 +139,11 @@ h1 {
   margin-bottom: 20px;
 }
 
-.image img{
+.image img {
   width: 100%;
   object-fit: cover;
   height: 100%;
+  border-radius: 5px;
 }
 
 h2 {
@@ -168,11 +157,6 @@ h2 a {
   color: black;
   text-transform: uppercase;
 }
-
-
-
-
-
 
 .description {
   overflow: hidden;
@@ -190,9 +174,34 @@ h2 a {
   display: block;
 }
 
+.test {
+  margin: 50px 0;
+  background: pink;
+}
 
+.test::before {
+  content: "before";
+}
 
+.test::after {
+  content: "after";
+}
 
+.float {
+  background: #5f4a4a;
+  /* padding: 20px; */
+  margin-bottom: 150px;
+  padding: 20px 0;
+}
 
+.float-c {
+  width: 300px;
+  background: rgb(56, 7, 16);
+  float: left;
+}
 
-
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
