@@ -303,3 +303,95 @@ h2 a {
   clear: both;
   display: block;
 }
+
+
+
+
+
+
+
+/* FLEX */
+/* ________________________________________________________ */
+
+
+
+
+
+
+
+.club {
+  /* background: #b97777; */
+  width: 900px;
+  margin: 90px auto 90px;
+  /* padding: 20px; */
+  position: relative;
+  height: 800px;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+
+
+.club img {
+  object-fit: cover;
+  /* margin-bottom: 20px; */
+  width: 100%;
+  height: 100%;
+}
+
+
+.club-content {
+  text-align: center;
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  background: #000;
+  color: yellow;
+  height: 80px;
+  background: black;
+  overflow: hidden;
+}
+
+
+.club:hover .club-content {
+  display: block;
+}
+
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  background: #bda3a3;
+  /* height: 450px; */
+  /* width: 150px; */
+  margin-top: -275px;
+}
+.club-list {
+  padding: 20px;
+}
+
+.club-list li{
+  margin-bottom: 20px;
+}
+
+
+.club-list li:last-child {
+  margin-bottom: 0;
+}
+
+
+.club-list li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #da2424;
+
+}
+
+
+
+.club-list li a:hover {
+  color: #000;
+}
